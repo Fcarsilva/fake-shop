@@ -13,7 +13,7 @@ jobs:
         run: echo "Executando o comando Docker build"
       - name: Construção da Imagem Docker
         run: echo "Executando o comando Docker push"
- ci:
+  cd:
     runs-on: ubuntu-latest
     steps:
       - name: Autenticar na AWS
